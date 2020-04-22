@@ -18,29 +18,159 @@
         </nav>
         <div class="container">
             <form>
-                <label for="firstName">First Name: </label>
-                    <input type="text" id="firstName" />
+                <label for="Name">Name of Person or Business: </label>
+                    <input type="text" id="Name" />
                 <label for="relation">Relation: </label>
                     <input type="text" id="relation" />
                 <label for="date">Date: </label> 
                     <input type="date" id="date" placeholder="dd/mm/yyyy" />
-                <h3>Time of the Day</h3>    
-                <input type="radio" id="am" name="amPM" /> 
-                    <label for="am">A.M.</label>
-                <input type="radio" id="pm" name="amPM" />
-                    <label for="pm">P.M.</label><br>
-                <input type="radio" id="range1" name="time" />
-                    <label for="range1">12:00-3:00</label><br>       
-                <input type="radio" id="range2" name="time" />
-                    <label for="range2">3:00-6:00</label><br>
-                <input type="radio" id="range3" name="time" />
-                    <label for="range3">6:00-9:00</label><br>        
-                <input type="radio" id="range4" name="time" />
-                    <label for="range4">9:00-12:00</label>    
-                location
-                livingWith
-                showingSymptoms        
-            
+                <div>
+                    <label><em>Hours</em></label>
+                    <select for="hours">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                    <label><em>Minutes</em></label>
+                    <select for="minutes">
+                        <div class="container">
+            <form>
+                <label for="Name">Full Name: </label>
+                    <input type="text" id="Name" />
+                <p><em>OR</em></p>
+                <label for="business">Business Name: </label>
+                    <input type="text" id="business" />
+                <label for="relation">Relation: </label>
+                    <input type="text" id="relation" />
+                <label for="date">Date: </label> 
+                    <input type="date" id="date" placeholder="dd/mm/yyyy" />
+                <div>
+                    <label><em>Hours</em></label>
+                    <select for="hours">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                    <label><em>Minutes</em></label>
+                    <select for="minutes">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">1</option>
+                        <option value="12">2</option>
+                        <option value="13">3</option>
+                        <option value="14">4</option>
+                        <option value="15">5</option>
+                        <option value="16">6</option>
+                        <option value="17">7</option>
+                        <option value="18">8</option>
+                        <option value="19">9</option>
+                        <option value="20">10</option>
+                        <option value="21">1</option>
+                        <option value="22">2</option>
+                        <option value="23">3</option>
+                        <option value="24">4</option>
+                        <option value="25">5</option>
+                        <option value="26">6</option>
+                        <option value="27">7</option>
+                        <option value="28">8</option>
+                        <option value="29">9</option>
+                        <option value="30">10</option>
+                        <option value="31">1</option>
+                        <option value="32">2</option>
+                        <option value="33">3</option>
+                        <option value="34">4</option>
+                        <option value="35">5</option>
+                        <option value="36">6</option>
+                        <option value="37">7</option>
+                        <option value="38">8</option>
+                        <option value="39">9</option>
+                        <option value="40">10</option>
+                        <option value="41">1</option>
+                        <option value="42">2</option>
+                        <option value="43">3</option>
+                        <option value="44">4</option>
+                        <option value="45">5</option>
+                        <option value="46">6</option>
+                        <option value="47">7</option>
+                        <option value="48">8</option>
+                        <option value="49">9</option>
+                        <option value="50">10</option>
+                        <option value="51">1</option>
+                        <option value="52">2</option>
+                        <option value="53">3</option>
+                        <option value="54">4</option>
+                        <option value="55">5</option>
+                        <option value="56">6</option>
+                        <option value="57">7</option>
+                        <option value="58">8</option>
+                        <option value="59">9</option>
+                        <option value="60">10</option>
+                    </select>
+                </div>
+                <label for="location">Location: </label>
+                    <input type="text" id="location" />
+                <p>Do you live with this person?</p>
+                <input type="radio" id="liveWith" name="livingWith" />
+                    <label for="liveWith">Yes</label>
+                <input type="radio" id="dontLiveWith" name="livingWith" />
+                    <label for="dontLiveWith">No</label>
+                <p>Are symptoms present?</p>
+                <input type="radio" id="symptomsPresent" name="showingSymptoms" />
+                    <label for="symptomsPresent">Yes</label>
+                <input type="radio" id="noSymptomsPresent" name="showingSymptoms" />
+                    <label for="noSymptomsPresent">No</label>
+                <p>Are you employed by this business?</p>
+                <input type="radio" id="employed" name="employer" />
+                    <label for="employed">Yes</label>
+                <input type="radio" id="notEmployed" name="employer" />
+                    <label for="notEmployed">No</label>
+            </form>
+        </div>
+                    </select>
+                </div>
+                <label for="location">Location: </label>
+                    <input type="text" id="location" />
+                <p>Do you live with this person?</p>
+                <input type="radio" id="true" name="livingWith" />
+                    <label for="true">Yes</label>
+                <input type="radio" id="false" name="livingWith" />
+                    <label for="false">No</label>
+                <p>Are you showing symptoms?</p>
+                <input type="radio" id="yes" name="showingSymptoms" />
+                    <label for="yes">Yes</label>
+                <input type="radio" id="no" name="showingSymptoms" />
+                    <label for="no">No</label>
+                <p>Are you employed by this business?</p>
+                <input type="radio" id="employed" name="employer" />
+                    <label for="employed">Yes</label>
+                <input type="radio" id="notEmployed" name="employer" />
+                    <label for="notEmployed">No</label>
             </form>
         </div>
         <!--Symptoms Lists-->
