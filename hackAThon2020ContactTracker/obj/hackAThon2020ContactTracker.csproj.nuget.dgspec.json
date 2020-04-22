@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tsuka\\Desktop\\hackAThon2020ContactTracker\\hackAThon2020ContactTracker.csproj": {}
+    "C:\\Users\\Tsuka\\Desktop\\WozU\\projects\\practice\\Hackathon2020\\hackAThon2020ContactTracker\\hackAThon2020ContactTracker.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tsuka\\Desktop\\hackAThon2020ContactTracker\\hackAThon2020ContactTracker.csproj": {
+    "C:\\Users\\Tsuka\\Desktop\\WozU\\projects\\practice\\Hackathon2020\\hackAThon2020ContactTracker\\hackAThon2020ContactTracker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tsuka\\Desktop\\hackAThon2020ContactTracker\\hackAThon2020ContactTracker.csproj",
+        "projectUniqueName": "C:\\Users\\Tsuka\\Desktop\\WozU\\projects\\practice\\Hackathon2020\\hackAThon2020ContactTracker\\hackAThon2020ContactTracker.csproj",
         "projectName": "hackAThon2020ContactTracker",
-        "projectPath": "C:\\Users\\Tsuka\\Desktop\\hackAThon2020ContactTracker\\hackAThon2020ContactTracker.csproj",
+        "projectPath": "C:\\Users\\Tsuka\\Desktop\\WozU\\projects\\practice\\Hackathon2020\\hackAThon2020ContactTracker\\hackAThon2020ContactTracker.csproj",
         "packagesPath": "C:\\Users\\Tsuka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tsuka\\Desktop\\hackAThon2020ContactTracker\\obj\\",
+        "outputPath": "C:\\Users\\Tsuka\\Desktop\\WozU\\projects\\practice\\Hackathon2020\\hackAThon2020ContactTracker\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
