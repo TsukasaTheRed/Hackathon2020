@@ -8,6 +8,5 @@ namespace hackAThon2020ContactTracker.Models
         public bool? showingSymptoms { get; set; }
         public bool? livingWith { get; set; }
         public bool? isEmployer { get; set; }
-
     }
 }
