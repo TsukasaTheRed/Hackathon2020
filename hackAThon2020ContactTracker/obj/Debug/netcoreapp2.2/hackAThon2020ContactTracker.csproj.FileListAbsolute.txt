@@ -56,3 +56,8 @@ C:\Users\Tsuka\Desktop\WozU\projects\practice\Hackathon2020\hackAThon2020Contact
 C:\Users\Tsuka\Desktop\WozU\projects\practice\Hackathon2020\hackAThon2020ContactTracker\obj\Debug\netcoreapp2.2\hackAThon2020ContactTracker.dll
 C:\Users\Tsuka\Desktop\WozU\projects\practice\Hackathon2020\hackAThon2020ContactTracker\obj\Debug\netcoreapp2.2\hackAThon2020ContactTracker.pdb
 C:\Users\Tsuka\Desktop\WozU\projects\practice\Hackathon2020\hackAThon2020ContactTracker\obj\Debug\netcoreapp2.2\hackAThon2020ContactTracker.csproj.CopyComplete
+C:\Users\Tsuka\Desktop\WozU\projects\practice\Hackathon2020\hackAThon2020ContactTracker\obj\Debug\netcoreapp2.2\Razor\Views\Contacts\Create.g.cshtml.cs
+C:\Users\Tsuka\Desktop\WozU\projects\practice\Hackathon2020\hackAThon2020ContactTracker\obj\Debug\netcoreapp2.2\Razor\Views\Contacts\Delete.g.cshtml.cs
+C:\Users\Tsuka\Desktop\WozU\projects\practice\Hackathon2020\hackAThon2020ContactTracker\obj\Debug\netcoreapp2.2\Razor\Views\Contacts\Details.g.cshtml.cs
+C:\Users\Tsuka\Desktop\WozU\projects\practice\Hackathon2020\hackAThon2020ContactTracker\obj\Debug\netcoreapp2.2\Razor\Views\Contacts\Edit.g.cshtml.cs
+C:\Users\Tsuka\Desktop\WozU\projects\practice\Hackathon2020\hackAThon2020ContactTracker\obj\Debug\netcoreapp2.2\Razor\Views\Contacts\Index.g.cshtml.cs
