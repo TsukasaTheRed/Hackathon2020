@@ -62,7 +62,7 @@ namespace hackAThon2020ContactTracker
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=Contacts}/{action=Index}/{id?}");
             });
         }
     }
