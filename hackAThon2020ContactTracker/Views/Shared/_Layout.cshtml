@@ -20,18 +20,45 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">hackAThon2020ContactTracker</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+            <div class="dropdown">
+                <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Reliable Sources
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                    </ul>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="https://coronavirus.health.ny.gov/protect-yourself-and-your-family-coronavirus-covid-19">NYS Department of Health</a>
+                    <a class="dropdown-item" href="https://www.nih.gov/health-information/coronavirus">National Institutes of Health</a>
+                    <a class="dropdown-item" href="https://www.mayoclinic.org/diseases-conditions/coronavirus/symptoms-causes/syc-20479963">Mayo Clinic</a>
+                    <a class="dropdown-item" href="https://www.cdc.gov/coronavirus/2019-ncov/index.html">Center for Disease Control</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Common Symptoms
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Fever</a>
+                    <a class="dropdown-item" href="#">Cough</a>
+                    <a class="dropdown-item" href="#">Shortness of Breath</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="btn btn-warning dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Other Known Symptoms
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Chills</a>
+                    <a class="dropdown-item" href="#">Repeated Shaking</a>
+                    <a class="dropdown-item" href="#">Muscle Pain</a>
+                    <a class="dropdown-item" href="#">Headache</a>
+                    <a class="dropdown-item" href="#">Sore Throat</a>
+                    <a class="dropdown-item" href="#">New loss of Taste</a>
+                    <a class="dropdown-item" href="#">New loss of Smell</a>
+                    <a class="dropdown-item" href="#">Fatigue</a>
+                    <a class="dropdown-item" href="#">Diarrhea</a>
+                    <a class="dropdown-item" href="#">Vomiting</a>
+                    <a class="dropdown-item" href="#">Experience Confusion</a>
+                    <a class="dropdown-item" href="#">Experience Trouble Waking Up</a>
+                    <a class="dropdown-item" href="#">Blush Lips or Face</a>
                 </div>
             </div>
         </nav>
@@ -45,7 +72,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2020 - hackAThon2020ContactTracker - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            Found a Bug or have a question? Let us know with a Email at: <a href= runTWTP@gmail.com>runTWTP@gmail.com</a>
         </div>
     </footer>
 

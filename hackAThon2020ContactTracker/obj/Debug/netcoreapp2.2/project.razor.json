@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Tsuka\\Desktop\\hackAThon2020ContactTracker\\hackAThon2020ContactTracker.csproj",
+  "FilePath": "c:\\Users\\Tsuka\\Desktop\\WozU\\projects\\practice\\Hackathon2020\\hackAThon2020ContactTracker\\hackAThon2020ContactTracker.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-2.1",
     "LanguageVersion": "2.1",
@@ -2961,38 +2961,63 @@
   "RootNamespace": "hackAThon2020ContactTracker",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\Tsuka\\Desktop\\hackAThon2020ContactTracker\\Views\\Home\\Index.cshtml",
+      "FilePath": "c:\\Users\\Tsuka\\Desktop\\WozU\\projects\\practice\\Hackathon2020\\hackAThon2020ContactTracker\\Views\\Contacts\\Edit.cshtml",
+      "TargetPath": "Views\\Contacts\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Tsuka\\Desktop\\WozU\\projects\\practice\\Hackathon2020\\hackAThon2020ContactTracker\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Tsuka\\Desktop\\WozU\\projects\\practice\\Hackathon2020\\hackAThon2020ContactTracker\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Tsuka\\Desktop\\hackAThon2020ContactTracker\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FilePath": "c:\\Users\\Tsuka\\Desktop\\WozU\\projects\\practice\\Hackathon2020\\hackAThon2020ContactTracker\\Views\\Contacts\\Details.cshtml",
+      "TargetPath": "Views\\Contacts\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Tsuka\\Desktop\\hackAThon2020ContactTracker\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Tsuka\\Desktop\\hackAThon2020ContactTracker\\Views\\_ViewImports.cshtml",
+      "FilePath": "c:\\Users\\Tsuka\\Desktop\\WozU\\projects\\practice\\Hackathon2020\\hackAThon2020ContactTracker\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Tsuka\\Desktop\\hackAThon2020ContactTracker\\Views\\Shared\\_CookieConsentPartial.cshtml",
+      "FilePath": "c:\\Users\\Tsuka\\Desktop\\WozU\\projects\\practice\\Hackathon2020\\hackAThon2020ContactTracker\\Views\\Contacts\\Create.cshtml",
+      "TargetPath": "Views\\Contacts\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Tsuka\\Desktop\\WozU\\projects\\practice\\Hackathon2020\\hackAThon2020ContactTracker\\Views\\Shared\\_CookieConsentPartial.cshtml",
       "TargetPath": "Views\\Shared\\_CookieConsentPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Tsuka\\Desktop\\hackAThon2020ContactTracker\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\Users\\Tsuka\\Desktop\\WozU\\projects\\practice\\Hackathon2020\\hackAThon2020ContactTracker\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Tsuka\\Desktop\\hackAThon2020ContactTracker\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\Tsuka\\Desktop\\WozU\\projects\\practice\\Hackathon2020\\hackAThon2020ContactTracker\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Tsuka\\Desktop\\WozU\\projects\\practice\\Hackathon2020\\hackAThon2020ContactTracker\\Views\\Contacts\\Index.cshtml",
+      "TargetPath": "Views\\Contacts\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Tsuka\\Desktop\\WozU\\projects\\practice\\Hackathon2020\\hackAThon2020ContactTracker\\Views\\Contacts\\Delete.cshtml",
+      "TargetPath": "Views\\Contacts\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Tsuka\\Desktop\\WozU\\projects\\practice\\Hackathon2020\\hackAThon2020ContactTracker\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     }
   ],

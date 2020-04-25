@@ -1,0 +1,54 @@
+@model hackAThon2020ContactTracker.Models.Contact
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Contact</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            Name of Person (or Business)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class = "col-sm-2">
+            Location
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Location)
+        </dd>
+        <dt class = "col-sm-2">
+            Date
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Time)
+        </dd>
+        <dt class = "col-sm-2">
+            Symptoms?
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.showingSymptoms)
+        </dd>
+        <dt class = "col-sm-2">
+            Resident?
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.livingWith)
+        </dd>
+        <dt class = "col-sm-2">
+            Employer?
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.isEmployer)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
