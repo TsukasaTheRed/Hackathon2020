@@ -1,0 +1,23 @@
+Things we had planned that we cut for time:
+
+- Have separate forms for People and Business, separated by a radio button.
+-> - We would've used React, to make switching between forms more fluid.
+-> - Have a field for "Last Reported Case" for Business form.
+-> - Have a field for "Relation" for the Person form.
+-> - Have Person and Business entries display in different colors to distinguish difference.
+
+- Use the other half of our "public DateTime Time" variable.
+-> - Struggled to find a way in Bootstrap that allowed us to simultaneously store Date & Time at the same time; decided Date was more important.
+
+-Styling
+-> - We left it pretty vanilla, and could've dressed it up a little bit.
+
+
+Things that we cut because it was pretty much over all of our heads:
+
+- Have live numbers (Covid-19 cases & deaths) displayed in the header
+-> - Numbers on the sites we were relying on weren't nearly as live as we thought they'd be.
+-> - Only 1 of us knows how to dynamically render, and he was doubting his abilities.
+
+- Use Identity Framework to establish log-in capabilities.
+-> - Was easy enough to set up, but didn't know how to host the Login.db in a place where the app could reach it globally.
